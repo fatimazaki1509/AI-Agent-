@@ -44,3 +44,68 @@ An interactive AI-powered chat interface using **Node.js**, **Express**, and **G
 git clone https://github.com/your-username/ai-agent-chat.git
 cd ai-agent-chat
 npm install
+
+### 🔧 Installation & Run
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/ai-agent-chat.git
+cd ai-agent-chat
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the server
+node index.js
+
+
+
+
+
+###🔐 API Key Setup
+
+The Gemini API key is currently hardcoded in index.js for quick use:
+
+const ai = new GoogleGenAI({ apiKey: "your-api-key-here" });
+
+
+For production, it’s recommended to use an environment variable:
+
+GEMINI_API_KEY=your-api-key
+
+
+And load it using the dotenv package.
+
+### 📂 Project Structure
+ai-agent-chat/
+├── index.js           # Backend server (Express + Gemini API)
+├── public/            # Optional static assets
+└── README.md
+
+📸 UI Preview
+
+Replace this with an actual screenshot once pushed.
+
+🧠 Future Improvements
+
+ Save chat history to file or database
+
+ Add avatars/profile images
+
+ Export chat logs (PDF/Markdown)
+
+ Deploy to Render, Vercel, or Netlify
+
+ Add user authentication
+
+📄 License
+
+MIT License
+
+💬 Feedback
+
+Feel free to open issues or contribute via pull requests!
+
+Built with 💻 + 🤖 + ☕
+
+
