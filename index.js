@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 const History = [];
 const ai = new GoogleGenAI({
-  apiKey: "AIzaSyD9FP2spZQZ0PAL9LVAZhDiKeSsicJCy78",
+  apiKey: "Your_API_KEY",
 });
 
 // ---------- Tools ----------
